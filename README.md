@@ -1,4 +1,4 @@
 lynda
 =====
 
-A collection of excellent PHP tutorials and closed source small CMS contract projects
+A collection of excellent PHP tutorials and Jacqueline Homan's closed source PHP contract projects.
