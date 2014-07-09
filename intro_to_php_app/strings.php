@@ -7,7 +7,7 @@
  * like so: 'Winter\'s Bone'                 *
  ********************************************/  
 
-$movie = "Winter's Bone";
+$movie = "Winter's Bone ";
 echo $movie;
 echo " ";
 
@@ -22,5 +22,16 @@ echo " ";
 echo 'I love movies like $movie';
 echo "  ";
 echo "I love movies like $movie";
+
+// Joining strings and using new line \n
+// and carriage return \r
+$tv = "TWC";
+$Internet = 'Verizon';
+$nameList = array("Ed Drain", "Jacqueline Homan", "Marian Kramer");
+$customer = $nameList;
+$newLine = "\r\n\r\n";
+$price = 44;
+var_dump($nameList);
+
 
 ?>
