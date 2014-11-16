@@ -73,6 +73,21 @@ echo strip_tags($input, '<p><a>');
          }
 
          ?>
+         
+         <!--Just to throw in some JavaScript humor-->
+         <script>alert("BOO!!");</script>
+         <p><br>
+         <h3> Custom Function for Converting Seconds</h3>
 
 </body>
 </html>
+
+<?php
+function convertSeconds($seconds){
+	$minutes = floor($seconds / 60);
+	$seconds = $seconds % 60;
+	$seconds = ($seconds < 10) ? '0' . $seconds : $seconds;
+	return "$minutes : $seconds";
+}
+
+echo convertSeconds(557);
