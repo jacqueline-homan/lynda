@@ -15,6 +15,7 @@ $firstName = " Jacqueline "; // spaces provide some padding between the values p
 $total = 47;
 $firstname = " Ed ";
 $Total = 49;
+$number = 7.625;
 
 /* Outputs the value stored 
 in the var "$firstName" to the screen */ 
@@ -57,6 +58,6 @@ echo $firstname;
 echo '';
 echo $Total;
 */
-echo $firstName, '', $firstname, '', $total, '', $Total;
+echo $number, '', $firstName, '', $firstname, '', $total, '', $Total;
 
 ?>
