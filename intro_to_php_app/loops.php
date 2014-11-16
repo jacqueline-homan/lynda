@@ -72,4 +72,4 @@ $chars = array('Ed', 'Leah', 'Evan', 'Miguel', 'Chris');
          ?>
 
 </body>
-
+</html>
