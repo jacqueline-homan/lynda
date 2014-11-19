@@ -1,4 +1,24 @@
 
 body {
-	background-color: #96b1b3;
+	background-color: #FFCC99;
+}
+
+p.warning {
+	color:#990000;
+}
+
+span.warning {
+	color: #990000;
+}
+
+input#name {
+	background-color: #CCFFCC;
+}
+
+input#email {
+	background-color: #CCFFCC;
+}
+
+textarea#comments {
+	background-color: #CCFFCC;
 }
